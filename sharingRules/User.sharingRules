@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"><sharingOwnerRules>
+        <fullName>SalesSupport</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>A user sharing rule with write access</description>
+        <label>Share sales with support</label>
+        <sharedTo>
+            <role>CustomerSupportNorthAmerica</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ChannelSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules></SharingRules>
