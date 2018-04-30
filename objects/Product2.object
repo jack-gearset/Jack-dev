@@ -91,7 +91,7 @@
         <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
-    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+    </searchLayouts><listViews>
         <fullName>AllProducts</fullName>
         <filterScope>Everything</filterScope>
         <label>All Products</label>
