@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
@@ -442,15 +442,6 @@
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts><sharingModel>ReadWriteTransfer</sharingModel><listViews>
-        <fullName>AllOpenLeads</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>LEAD.STATUS</field>
-            <operation>notContain</operation>
-            <value>closed</value>
-        </filters>
-        <label>All Open Leads</label>
-    </listViews><listViews>
         <fullName>MyUnreadLeads</fullName>
         <filterScope>Mine</filterScope>
         <filters>
@@ -468,18 +459,6 @@
             <value>TODAY</value>
         </filters>
         <label>Today's Leads</label>
-    </listViews><listViews>
-        <fullName>ViewCustom1</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.COMPANY</columns>
-        <columns>LEAD.STATE</columns>
-        <columns>LEAD.EMAIL</columns>
-        <columns>LEAD.STATUS</columns>
-        <columns>LEAD.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>LEAD.UNREAD</columns>
-        <filterScope>Everything</filterScope>
-        <label>View - Custom 1</label>
     </listViews><listViews>
         <fullName>ViewCustom2</fullName>
         <columns>FULL_NAME</columns>
