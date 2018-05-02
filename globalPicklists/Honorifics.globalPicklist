@@ -2,11 +2,11 @@
 <GlobalPicklist xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Titles</description>
     <globalPicklistValues>
-        <fullName>Doctor</fullName>
+        <fullName>Dr</fullName>
         <default>false</default>
     </globalPicklistValues>
     <globalPicklistValues>
-        <fullName>Honorable</fullName>
+        <fullName>Hon.</fullName>
         <default>false</default>
     </globalPicklistValues>
     <globalPicklistValues>
@@ -15,6 +15,10 @@
     </globalPicklistValues>
     <globalPicklistValues>
         <fullName>Lord</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Master</fullName>
         <default>false</default>
     </globalPicklistValues>
     <globalPicklistValues>
@@ -48,10 +52,22 @@
     <globalPicklistValues>
         <fullName>Mx</fullName>
         <default>false</default>
+        <isActive>false</isActive>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Honorable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Doctor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
     </globalPicklistValues>
     <globalPicklistValues>
         <fullName>Queen&apos;s Counsel</fullName>
         <default>false</default>
+        <isActive>false</isActive>
     </globalPicklistValues>
     <masterLabel>Honorifics</masterLabel>
     <sorted>false</sorted>
