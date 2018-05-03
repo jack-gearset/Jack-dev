@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
@@ -54,4 +54,24 @@
         <fullName>ToAddress</fullName>
     </fields><fields>
         <fullName>ValidatedFromAddress</fullName>
-    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds></CustomObject>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HasAttachment</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Address</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MessageDate</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>HasAttachment</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Address</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Subject</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>MessageDate</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>HasAttachment</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Address</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Subject</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>MessageDate</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FromName</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ToAddress</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MessageDate</searchResultsAdditionalFields>
+    </searchLayouts></CustomObject>
