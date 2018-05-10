@@ -53,6 +53,21 @@
         <fullName>Queen&apos;s Counsel</fullName>
         <default>false</default>
     </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Hon.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Dr</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Master</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+    </globalPicklistValues>
     <masterLabel>Honorifics</masterLabel>
     <sorted>false</sorted>
 </GlobalPicklist>
