@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Gold Partner</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Gold Partner</userLicense><applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
         <visible>true</visible>
@@ -1035,9 +1035,6 @@
         <tab>standard-Document</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
-        <tab>standard-DuplicateRecordSet</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities><tabVisibilities>
         <tab>standard-Event</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
@@ -1045,12 +1042,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>standard-Lead</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities><tabVisibilities>
-        <tab>standard-Macro</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities><tabVisibilities>
-        <tab>standard-Metric</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>standard-Opportunity</tab>
@@ -1063,9 +1054,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>standard-ProcessInstanceWorkitem</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities><tabVisibilities>
-        <tab>standard-Product2</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>standard-Scorecard</tab>
@@ -1088,6 +1076,18 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-DuplicateRecordSet</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-Macro</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-Metric</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-Product2</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
