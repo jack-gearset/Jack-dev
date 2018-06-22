@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>AddCampaign</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
@@ -174,4 +174,4 @@
         <fullName>Street</fullName>
     </fields><fields>
         <fullName>Title</fullName>
-    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><sharingModel>ControlledByCampaign</sharingModel></CustomObject>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds></CustomObject>

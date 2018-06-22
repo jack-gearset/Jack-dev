@@ -29,6 +29,9 @@
         <actionName>NewSfdcEvent</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
         <actionName>Today</actionName>
         <type>Default</type>
     </actionOverrides><actionOverrides>
