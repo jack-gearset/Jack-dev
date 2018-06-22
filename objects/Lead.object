@@ -52,7 +52,27 @@
     </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides><fields>
+    </actionOverrides><businessProcesses>
+        <fullName>Process 1</fullName>
+        <description>Primary Process (Deactivated)</description>
+        <isActive>false</isActive>
+        <values>
+            <fullName>Closed - Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Not Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open - Not Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working - Contacted</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses><fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
