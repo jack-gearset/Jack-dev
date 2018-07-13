@@ -154,9 +154,6 @@
         <fullName>NaicsDesc</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
-        <fullName>Name</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
@@ -464,6 +461,50 @@
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields><fields>
+        <fullName>CustomerPriority__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Priority</label>
+        <picklist>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>DiscountPercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>DiscountRate__c / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DiscountPercentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>DiscountRate__c</fullName>
+        <externalId>false</externalId>
+        <label>DiscountRate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
