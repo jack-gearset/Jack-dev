@@ -51,10 +51,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AccountNumber</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountSource</field>
         <readable>true</readable>
@@ -73,10 +69,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.CleanStatus</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
@@ -133,14 +125,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -906,6 +890,14 @@
         <editable>false</editable>
         <field>Case.AccountId</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountNumber</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments><layoutAssignments>
@@ -998,14 +990,6 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>Document</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions><objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>DuplicateRecordSet</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions><objectPermissions>
@@ -1016,22 +1000,6 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>Idea</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions><objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Lead</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions><objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Opportunity</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions><objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1048,14 +1016,6 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>Product2</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions><objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Solution</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions><objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1087,6 +1047,38 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Contact</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions><objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Document</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions><objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Lead</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions><objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Opportunity</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions><objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Solution</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions><recordTypeVisibilities>
         <default>false</default>

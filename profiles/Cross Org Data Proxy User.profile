@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>XOrg Proxy User</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>XOrg Proxy User</userLicense><applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
         <visible>false</visible>
@@ -75,10 +75,6 @@
         <field>Account.CleanStatus</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
         <readable>true</readable>
@@ -133,14 +129,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>

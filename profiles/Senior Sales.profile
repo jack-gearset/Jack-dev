@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><userLicense>Salesforce</userLicense><fieldPermissions>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><userLicense>Salesforce</userLicense><fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
@@ -21,10 +21,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.CleanStatus</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
@@ -81,14 +77,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -870,6 +858,10 @@
         <editable>true</editable>
         <field>Task.WhoId</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone__c</field>
+        <readable>true</readable>
     </fieldPermissions><objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1079,6 +1071,18 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-ContentNote</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-ProcessInstanceWorkitem</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>standard-Task</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>

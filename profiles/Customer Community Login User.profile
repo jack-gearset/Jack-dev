@@ -51,10 +51,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities><fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AccountNumber</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountSource</field>
         <readable>true</readable>
@@ -73,10 +69,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.CleanStatus</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
@@ -133,14 +125,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -921,6 +905,10 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Case.AccountId</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account Layout</layout>

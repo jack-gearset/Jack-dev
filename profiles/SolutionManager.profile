@@ -75,10 +75,6 @@
         <field>Account.CleanStatus</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.CustomerPriority__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
         <readable>true</readable>
@@ -133,14 +129,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLAExpirationDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SLASerialNumber__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -921,6 +909,10 @@
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone__c</field>
         <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account Layout</layout>

@@ -132,28 +132,6 @@
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
-        <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer Priority</label>
-        <picklist>
-            <picklistValues>
-                <fullName>High</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Medium</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields><fields>
         <fullName>DandbCompanyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
@@ -165,6 +143,152 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
         <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>NaicsCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>NaicsDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>NumberofLocations__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Locations</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Ownership</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields><fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Rating</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>SLA__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>Tradestyle</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>UpsellOpportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Upsell Opportunity</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields><fields>
+        <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields><fields>
         <fullName>Industry</fullName>
@@ -266,10 +390,6 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
                 <fullName>Recreation</fullName>
                 <default>false</default>
             </picklistValues>
@@ -297,54 +417,6 @@
                 <fullName>Utilities</fullName>
                 <default>false</default>
             </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>Jigsaw</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>NaicsCode</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>NaicsDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>Name</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>NumberOfEmployees</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>NumberofLocations__c</fullName>
-        <externalId>false</externalId>
-        <label>Number of Locations</label>
-        <precision>3</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields><fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields><fields>
-        <fullName>Ownership</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Public</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Private</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Subsidiary</fullName>
-                <default>false</default>
-            </picklistValues>
             <picklistValues>
                 <fullName>Other</fullName>
                 <default>false</default>
@@ -354,189 +426,44 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields><fields>
-        <fullName>ParentId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Hierarchy</type>
-    </fields><fields>
-        <fullName>Phone</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>Rating</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Hot</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Warm</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Cold</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>SLAExpirationDate__c</fullName>
-        <externalId>false</externalId>
-        <label>SLA Expiration Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields><fields>
-        <fullName>SLASerialNumber__c</fullName>
-        <externalId>false</externalId>
-        <label>SLA Serial Number</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields><fields>
-        <fullName>SLA__c</fullName>
-        <externalId>false</externalId>
-        <label>SLA</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Gold</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Silver</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Platinum</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Bronze</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>ShippingAddress</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>Sic</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>SicDesc</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>Site</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>TickerSymbol</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>Tradestyle</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
     </fields><fields>
         <fullName>Type</fullName>
         <picklist>
-            <picklistValues>
-                <fullName>Analyst</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Competitor</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Customer</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Integrator</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Investor</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Partner</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Press</fullName>
-                <default>false</default>
-            </picklistValues>
             <picklistValues>
                 <fullName>Prospect</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Reseller</fullName>
+                <fullName>Customer - Direct</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer - Channel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Channel Partner / Reseller</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Installation Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Technology Partner</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
                 <fullName>Other</fullName>
                 <default>false</default>
             </picklistValues>
-            <picklistValues>
-                <fullName>NewType</fullName>
-                <default>false</default>
-            </picklistValues>
             <sorted>false</sorted>
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields><fields>
-        <fullName>UpsellOpportunity__c</fullName>
-        <externalId>false</externalId>
-        <label>Upsell Opportunity</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Maybe</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>No</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Yes</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>Website</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>YearStarted</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields><fields>
-        <fullName>DiscountPercentage__c</fullName>
-        <externalId>false</externalId>
-        <formula>DiscountRate__c / 100</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>DiscountPercentage</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <type>Currency</type>
-    </fields><fields>
-        <fullName>DiscountRate__c</fullName>
-        <externalId>false</externalId>
-        <label>DiscountRate</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Currency</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
@@ -590,24 +517,6 @@
         </filters>
         <label>New This Week</label>
     </listViews><webLinks>
-        <fullName>AltavistaNews</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Altavista News</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://news.altavista.com/search?nc=0&amp;q={!Account.Name}</url>
-    </webLinks><webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
@@ -625,94 +534,4 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
-    </webLinks><webLinks>
-        <fullName>GoogleMaps</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Google Maps</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account.BillingStreet}+{!Account.BillingCity}+{!Account.BillingState}&amp;om=1</url>
-    </webLinks><webLinks>
-        <fullName>GoogleNews</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Google News</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://www.google.com/news?&amp;q={!Account.Name}&amp;btnG=Search+News</url>
-    </webLinks><webLinks>
-        <fullName>GoogleSearch</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Google Search</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://www.google.com/search?q={!Account.Name}</url>
-    </webLinks><webLinks>
-        <fullName>HooversProfile</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Hoovers Profile</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Account.Name}</url>
-    </webLinks><webLinks>
-        <fullName>YahooMaps</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Yahoo Maps</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://maps.yahoo.com/py/maps.py?cn={!Account.BillingCountry}&amp;csz={!Account.BillingCity}+{!Account.BillingState}+{!Account.BillingPostalCode}+&amp;addr={!Account.BillingStreet}</url>
     </webLinks></CustomObject>
