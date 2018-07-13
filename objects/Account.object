@@ -494,9 +494,6 @@
         <scale>2</scale>
         <type>Currency</type>
     </fields><fields>
-        <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-    </fields><fields>
         <fullName>DiscountRate__c</fullName>
         <externalId>false</externalId>
         <label>DiscountRate</label>
@@ -505,6 +502,9 @@
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Currency</type>
+    </fields><fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
