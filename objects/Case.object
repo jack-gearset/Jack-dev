@@ -341,65 +341,6 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields><fields>
-        <fullName>Product1__c</fullName>
-        <externalId>false</externalId>
-        <label>Product</label>
-        <picklist>
-            <picklistValues>
-                <fullName>GC1040</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC1060</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC3020</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC3040</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC3060</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC5020</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC5040</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC5060</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>GC1020</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        
-        <trackTrending>false</trackTrending>
-    </fields><fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields><fields>
         <fullName>Priority</fullName>
         <picklist>
             <picklistValues>
@@ -420,6 +361,17 @@
         
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields><fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        
+        <trackTrending>false</trackTrending>
+    </fields><fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
