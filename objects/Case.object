@@ -341,38 +341,6 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields><fields>
-        <fullName>Priority</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>High</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>true</trackFeedHistory>
-        
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields><fields>
-        <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        
-        <trackTrending>false</trackTrending>
-    </fields><fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields><fields>
         <fullName>Product1__c</fullName>
         <externalId>false</externalId>
         <label>Product</label>
@@ -418,6 +386,38 @@
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        
+        <trackTrending>false</trackTrending>
+    </fields><fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Priority</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><searchLayouts>
