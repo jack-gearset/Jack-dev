@@ -514,27 +514,10 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
-    <fields>
-        <fullName>DiscountPercentage__c</fullName>
-        <externalId>false</externalId>
-        <formula>DiscountRate__c / 100</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>DiscountPercentage</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>DiscountRate__c</fullName>
-        <externalId>false</externalId>
-        <label>DiscountRate</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Currency</type>
-    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><searchLayouts>
+  <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+  <enableFeeds>true</enableFeeds>
+  <enableHistory>false</enableHistory>
+  <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
@@ -551,7 +534,9 @@
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts><sharingModel>ReadWrite</sharingModel>
+    </searchLayouts>
+  <sharingModel>ReadWrite</sharingModel>
+
     <listViews>
         <fullName>MyAccounts</fullName>
         <filterScope>Mine</filterScope>
