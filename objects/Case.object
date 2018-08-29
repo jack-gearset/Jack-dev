@@ -1,117 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>ChangeStatus</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>CloneAsChild</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>CloseCase</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Follow</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>MassClose</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>NewCase</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
+    </actionOverrides><actionOverrides>
         <actionName>View</actionName>
         <type>Default</type>
-    </actionOverrides>
-    <fields>
+    </actionOverrides><fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>AssetId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>BusinessHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Comments</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactEmail</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactFax</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactMobile</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ContactPhone</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
@@ -122,20 +96,17 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>IsEscalated</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Origin</fullName>
         <picklist>
             <picklistValues>
@@ -156,15 +127,13 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>PotentialLiability__c</fullName>
         <externalId>false</externalId>
         <label>Potential Liability</label>
@@ -184,8 +153,7 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Product__c</fullName>
         <externalId>false</externalId>
         <label>Product</label>
@@ -233,8 +201,7 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Reason</fullName>
         <picklist>
             <picklistValues>
@@ -278,8 +245,7 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SLAViolation__c</fullName>
         <externalId>false</externalId>
         <label>SLA Violation</label>
@@ -299,8 +265,7 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Status</fullName>
         <picklist>
             <picklistValues>
@@ -329,30 +294,24 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Subject</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SuppliedCompany</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SuppliedEmail</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SuppliedName</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>SuppliedPhone</fullName>
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Type</fullName>
         <picklist>
             <picklistValues>
@@ -381,21 +340,66 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
+    </fields><fields>
+        <fullName>Product1__c</fullName>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <picklist>
+            <picklistValues>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         
         <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
+    </fields><fields>
         <fullName>Priority</fullName>
         <picklist>
             <picklistValues>
@@ -416,10 +420,7 @@
         
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-  <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-  <enableFeeds>true</enableFeeds>
-  <searchLayouts>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
@@ -439,10 +440,7 @@
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-    </searchLayouts>
-  <sharingModel>ReadWriteTransfer</sharingModel>
-
-    <listViews>
+    </searchLayouts><sharingModel>ReadWriteTransfer</sharingModel><listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>NAME</columns>
@@ -458,8 +456,7 @@
             <value>1</value>
         </filters>
         <label>All Closed Cases</label>
-    </listViews>
-    <listViews>
+    </listViews><listViews>
         <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -468,13 +465,11 @@
             <value>0</value>
         </filters>
         <label>All Open Cases</label>
-    </listViews>
-    <listViews>
+    </listViews><listViews>
         <fullName>MyCases</fullName>
         <filterScope>Mine</filterScope>
         <label>My Cases</label>
-    </listViews>
-    <listViews>
+    </listViews><listViews>
         <fullName>MyOpenCases</fullName>
         <filterScope>Mine</filterScope>
         <filters>
@@ -483,8 +478,7 @@
             <value>0</value>
         </filters>
         <label>My Open Cases</label>
-    </listViews>
-    <webLinks>
+    </listViews><webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
@@ -502,5 +496,4 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account_ID}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
-    </webLinks>
-</CustomObject>
+    </webLinks></CustomObject>
