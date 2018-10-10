@@ -484,35 +484,52 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>SLA__c</fullName>
         <externalId>false</externalId>
         <label>SLA</label>
         <picklist>
+            <controllingField>Industry</controllingField>
             <picklistValues>
                 <fullName>Gold</fullName>
+                <color>#F3D904</color>
                 <default>false</default>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
             </picklistValues>
             <picklistValues>
                 <fullName>Silver</fullName>
+                <color>#BBBBBB</color>
                 <default>false</default>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Biotechnology</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
             </picklistValues>
             <picklistValues>
                 <fullName>Platinum</fullName>
+                <color>#9999FF</color>
                 <default>false</default>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
             </picklistValues>
             <picklistValues>
                 <fullName>Bronze</fullName>
+                <color>#A53711</color>
                 <default>false</default>
+                <controllingFieldValues>Agriculture</controllingFieldValues>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
     </fields>
   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
   <enableFeeds>true</enableFeeds>
