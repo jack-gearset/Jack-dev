@@ -487,6 +487,124 @@
         <fullName>Name</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>DiscountPercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>DiscountRate__c / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DiscountPercentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SalesDemoField__c</fullName>
+        <description>This is my new sales demo field</description>
+        <externalId>false</externalId>
+        <label>SalesDemoField</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomerPriority__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Priority</label>
+        <picklist>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SLAExpirationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SLA__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA</label>
+        <picklist>
+            <controllingField>Industry</controllingField>
+            <picklistValues>
+                <fullName>Gold</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Silver</fullName>
+                <color>#BBBBBB</color>
+                <default>false</default>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Biotechnology</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Platinum</fullName>
+                <color>#9999FF</color>
+                <default>false</default>
+                <controllingFieldValues>Banking</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bronze</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <controllingFieldValues>Agriculture</controllingFieldValues>
+                <controllingFieldValues>Apparel</controllingFieldValues>
+                <controllingFieldValues>Chemicals</controllingFieldValues>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SLASerialNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>SLA Serial Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DiscountRate__c</fullName>
+        <externalId>false</externalId>
+        <label>DiscountRate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
   <enableFeeds>true</enableFeeds>
   <enableHistory>false</enableHistory>
