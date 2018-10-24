@@ -413,7 +413,7 @@
             <sorted>false</sorted>
         </picklist>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -440,7 +440,7 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-  <sharingModel>ReadWriteTransfer</sharingModel><enableHistory>true</enableHistory>
+  <sharingModel>ReadWriteTransfer</sharingModel>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
