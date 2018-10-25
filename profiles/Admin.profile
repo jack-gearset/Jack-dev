@@ -1,13 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
     <classAccesses xmlns="http://soap.sforce.com/2006/04/metadata">
-        <apexClass>ANewClass</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ClassTheSecond</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -31,6 +23,14 @@
         <apexClass>PassingTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>ANewClass</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>ClassTheSecond</apexClass>
+</classAccesses>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1166,7 +1166,11 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SalesDemoField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
