@@ -536,53 +536,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Currency</type>
     </fields>
-    <fields>
-        <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer Priority</label>
-        <picklist>
-            <controllingField>Industry</controllingField>
-            <picklistValues>
-                <fullName>High</fullName>
-                <default>false</default>
-                <controllingFieldValues>Agriculture</controllingFieldValues>
-                <controllingFieldValues>Apparel</controllingFieldValues>
-                <controllingFieldValues>Banking</controllingFieldValues>
-                <controllingFieldValues>Biotechnology</controllingFieldValues>
-                <controllingFieldValues>Chemicals</controllingFieldValues>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Low</fullName>
-                <default>false</default>
-                <controllingFieldValues>Agriculture</controllingFieldValues>
-                <controllingFieldValues>Apparel</controllingFieldValues>
-                <controllingFieldValues>Banking</controllingFieldValues>
-                <controllingFieldValues>Biotechnology</controllingFieldValues>
-                <controllingFieldValues>Chemicals</controllingFieldValues>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Medium</fullName>
-                <default>false</default>
-                <controllingFieldValues>Agriculture</controllingFieldValues>
-                <controllingFieldValues>Apparel</controllingFieldValues>
-                <controllingFieldValues>Banking</controllingFieldValues>
-                <controllingFieldValues>Biotechnology</controllingFieldValues>
-                <controllingFieldValues>Chemicals</controllingFieldValues>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>SLAExpirationDate__c</fullName>
-        <externalId>false</externalId>
-        <label>SLA Expiration Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields>
   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
   <enableFeeds>true</enableFeeds>
   <enableHistory>false</enableHistory>
