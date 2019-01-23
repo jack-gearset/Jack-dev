@@ -139,10 +139,6 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Private</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
                 <fullName>Subsidiary</fullName>
                 <default>false</default>
             </picklistValues>
