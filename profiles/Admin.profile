@@ -31,6 +31,14 @@
     <enabled>false</enabled>
     <apexClass>ClassTheSecond</apexClass>
 </classAccesses>
+    <classAccesses>
+        <apexClass>ContactsTodayController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactsTodayController_test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
