@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
     <classAccesses xmlns="http://soap.sforce.com/2006/04/metadata">
         <apexClass>ChangePasswordController</apexClass>
         <enabled>true</enabled>
@@ -15,22 +15,10 @@
         <apexClass>CommunitiesLandingControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>FailingTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>PassingTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>ANewClass</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>ClassTheSecond</apexClass>
-</classAccesses>
+    
+    
+    
+    
     <classAccesses>
         <apexClass>ContactsTodayController</apexClass>
         <enabled>true</enabled>
