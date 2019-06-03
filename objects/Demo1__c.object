@@ -47,35 +47,29 @@
         <fullName>Picklist_35__c</fullName>
         <externalId>false</externalId>
         <label>Picklist 35</label>
+        <picklist>
+            <picklistValues>
+                <fullName>100</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Four</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>100</fullName>
-                    <default>false</default>
-                    <label>100</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>Four</fullName>
-                    <default>false</default>
-                    <label>Four</label>
-                </value>
-                <value>
-                    <fullName>5</fullName>
-                    <default>false</default>
-                    <label>5</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
         <visibleLines>4</visibleLines>
     </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
